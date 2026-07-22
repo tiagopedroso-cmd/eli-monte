@@ -750,11 +750,12 @@
   }
   .dev-credit-logo {
     display: block;
-    height: 28px;
+    height: 32px;
     width: auto;
-    color: var(--branco);
+    max-width: 180px;
+    object-fit: contain;
   }
-  .dev-credit-logo .mark { color: #3CBFBF; }
+  @media (min-width: 700px) { .dev-credit-logo { height: 36px; } }
 
   /* ============ WHATSAPP FLUTUANTE ============ */
   .whatsapp-float {
@@ -1234,22 +1235,7 @@
       <span>© 2026 Estética Eli Monte. Todos os direitos reservados.</span>
       <a class="dev-credit" href="https://www.instagram.com/inovalogix" target="_blank" rel="noopener" aria-label="Site desenvolvido por InovaLogix">
         <span class="dev-credit-label">Desenvolvido por</span>
-        <svg class="dev-credit-logo" viewBox="0 0 340 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="InovaLogix">
-          <g class="mark" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="14,40 32,12 64,12 82,40 64,68 32,68"/>
-            <path d="M37 34 A 12 12 0 1 0 58 46" stroke-width="4"/>
-          </g>
-          <g class="mark" fill="currentColor">
-            <circle cx="14" cy="40" r="3.6"/>
-            <circle cx="32" cy="12" r="3.6"/>
-            <circle cx="64" cy="12" r="3.6"/>
-            <circle cx="82" cy="40" r="3.6"/>
-            <circle cx="64" cy="68" r="3.6"/>
-            <circle cx="32" cy="68" r="3.6"/>
-            <polygon points="52,24 66,26 57,38"/>
-          </g>
-          <text x="102" y="53" font-family="Poppins, -apple-system, system-ui, sans-serif" font-weight="700" font-size="34" letter-spacing="-0.5" fill="currentColor">InovaLogix</text>
-        </svg>
+        <img class="dev-credit-logo" src="inovalogix-logo.png" alt="InovaLogix" loading="lazy" />
       </a>
     </div>
   </div>
