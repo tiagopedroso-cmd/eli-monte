@@ -1,0 +1,29 @@
+# Notas internas (copy e design system)
+Copy.txt
+Design System.txt
+
+# Imagens de referência não utilizadas no site (backups locais)
+472*.jpg
+475*.jpg
+502*.jpg
+504*.jpg
+506*.jpg
+621*.webp
+720*.jpg
+CRIOLIPOLISE4.jpg
+CRIOLIPOLISE5.jpg
+DEPILACAO.jpg
+DEPILACAO1.jpg
+
+# Vercel
+.vercel
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode
+.idea
+*.swp
